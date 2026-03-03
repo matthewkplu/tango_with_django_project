@@ -92,6 +92,8 @@ DATABASES = {
 
 LOGIN_URL = '/rango/login/'
 
+SESSION_EXPIRE_AT_BROWSER_CLOSE=True
+
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
