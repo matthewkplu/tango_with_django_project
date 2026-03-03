@@ -20,6 +20,7 @@ from rango import views
 from django.conf import settings
 from django.conf.urls.static import static
 
+LOGIN_URL = 'rango:login'
 
 urlpatterns = [
     path('', views.index, name='index'),
